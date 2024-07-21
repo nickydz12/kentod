@@ -279,7 +279,7 @@ restart_system(){
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/Septahadif/instalasi/main/register"
+izinsc="https://raw.githubusercontent.com/nickydz12/kentod/main/register"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -316,8 +316,8 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="5026145251"
-KEY="6515000384:AAEmusLiDApJ1Tp4TpSa3AIdMVirsN_DaEc"
+CHATID="6516410192"
+KEY="6420788100:AAGs9Z2VPp3sfSs6Ryapq7BBYP1fdZ29GhI"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
